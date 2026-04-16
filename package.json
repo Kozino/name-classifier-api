@@ -1,7 +1,7 @@
 {
   "name": "name-classifier-api",
   "version": "1.0.0",
-  "description": "Name classification API with external APIs",
+  "description": "Name classification API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -15,5 +15,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
